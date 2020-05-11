@@ -1,0 +1,40 @@
+
+
+.wallpaper {
+    position: absolute;
+    right: 0;
+    width: 820px;
+    height: 613px;
+    margin-top: 88px;
+}
+
+.wallpaper__laptop {
+    background: url('../img/wallpaper/laptop.png') no-repeat center;
+    background-size: contain;
+    width:795px;
+    height: 613px;
+    position: absolute;
+    right:0;
+    bottom:0
+
+
+}
+.wallpaper__phone {
+    background: url('../img/wallpaper/phone.png') no-repeat center;
+    background-size: contain;
+    width:245px;
+    height: 482px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+
+}
+
+@media (max-width: 780px) {
+    .wallpaper {
+        display: none
+    }
+
+    
+}
+

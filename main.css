@@ -1,0 +1,17 @@
+
+@import url('./style/normalize.css');
+@import url('./style/reset.css');
+@import url('./style/generic.css');
+@import url('./style/wallpaper.css');
+@import url('./style/features.css');
+@import url('./style/form.css');
+@font-face {
+    font-family: OpenSanBold; /* Имя шрифта */
+    src: url('./fonts/OpenSans-Bold.ttf'); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: SanFrancisco; /* Имя шрифта */
+    src: url('./fonts/SanFrancisco.ttf'); /* Путь к файлу со шрифтом */
+   }
+
+

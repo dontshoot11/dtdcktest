@@ -1,0 +1,63 @@
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height:100%;
+
+    width: 100%;
+    background: #0b172a;
+    font-family: 'OpenSanBold', sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    
+   
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.button-login {
+    padding: 0px 20px;
+    border: 1px solid #D8E1E6;
+    border-radius: 4px;
+    top: 16px;
+    right: 0;
+    color: #fff;
+    position: absolute;
+    display: block;
+}
+
+.button-login__text {
+    color: #fff;
+    display: block;
+   
+
+}
+
+.button-login__text:before {
+    content:url('');
+    margin-right: 10px;
+    display: inline-block;
+  
+    padding: 12px;
+    background:url('../img/graphics/user.svg') no-repeat center ;
+    background-size: contain;
+
+}
+
+.registration {
+    position: relative;
+    width: 100%
+}
+
+@media (max-width: 1260px) {
+    .container {
+        max-width: 95%
+    }
+    
+    
+}

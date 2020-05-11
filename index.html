@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="registration">
+            <div class="wallpaper">
+                <div class="wallpaper__laptop"></div>
+                <div class="wallpaper__phone"></div>
+            </div>
+            <div class="container">
+
+
+                <button class="button-login">
+                        <span class="button-login__text">Войти</span>
+                </button>
+
+
+                <div class="maincontent">
+                    <div class="white-rectangle"></div>
+                    <h1 class="heading">Начните торговать прямо сейчас</h1>
+                    <ul class="features">
+                        <li class="features__item">Нет спреда — торгуйте с прозрачными и точными котировками</li>
+                        <li class="features__item">Достаточно депозита в $10, чтобы начать торговать</li>
+                    </ul>
+
+
+                    <form action="action" class="form">
+                        <label class=form__input-label>
+
+                            <input type="email" id="form__email" class="form__input" required>
+                            <span class="fake-placeholder">Ваш e-mail</span>
+                            <span class="form__input-error">Проверьте корректность введенных данных</span>
+
+
+                        </label>
+
+                        <label class=form__input-label>
+
+                            <input type="text" id="form__password" class="form__input" required minlength="4">
+                            <span class="fake-placeholder" >Придумайте пароль</span>
+                            <span class="form__input-error">Минимальная длина пароля - 4 символа</span>
+
+
+                        </label>
+
+                        <div class="radio">
+                            <div class="radio__description">Валюта для ввода и вывода средств</div>
+                            <div class="radio-buttons" id="form__currency">
+                                <label class="radio-buttons__label">
+                                <input class="radio-buttons__hidden-button" name="currency" type="radio" value="rubles" checked>
+                                <span class="radio-buttons__fake-button radio-buttons__fake-button--left">Р</span>
+                                </label>
+                                <label class="radio-buttons__label">
+                                <input class="radio-buttons__hidden-button" name="currency" type="radio" value="dollars" >
+                                <span class="radio-buttons__fake-button radio-buttons__fake-button--center">S</span>
+                                </label>
+                                <label class="radio-buttons__label">
+                                <input class="radio-buttons__hidden-button"  name="currency" type="radio" value="euros" >
+                                <span class="radio-buttons__fake-button radio-buttons__fake-button--right">E</span>
+                                </label>
+
+
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label class="checkbox__label">
+                                <input id="form__checkbox" type="checkbox" name = "agreed" required class="checkbox__real-checkbox">
+                                <span class="checkbox__fake-chekbox"></span>
+                                
+                            </label>
+                            <div class="checkbox__description">Я совершеннолетний, ознакомился и принимаю соглашение об оказании услуг.</div>
+
+
+                        </div>
+
+                        <div class="form-notification">
+                            <div class="form-notification__alertpic"></div>
+                            <div class="form-notification__textcontent">Учетная запись с указанным e-mail уже существует</div>
+                        </div>
+
+                        <button class="form__submit" type="submit">Зарегистрироваться</button>
+
+
+
+                    </form>
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+    </div>
+    <script src="index.js"></script>
+
+
+
+
+
+</body>
+
+</html>
