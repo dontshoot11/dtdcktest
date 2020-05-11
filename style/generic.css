@@ -21,7 +21,7 @@ html, body {
 }
 
 .button-login {
-    padding: 0px 20px;
+    padding: 10px 16px 10px 48px;
     border: 1px solid #D8E1E6;
     border-radius: 4px;
     top: 16px;
@@ -34,16 +34,19 @@ html, body {
 .button-login__text {
     color: #fff;
     display: block;
+    position: relative;
    
 
 }
 
 .button-login__text:before {
+    position: absolute;
     content:"";
-    margin-right: 10px;
+    left:  -36px;
+    bottom : -6px;
     display: inline-block;
   
-    padding: 12px;
+    padding: 16px;
     background:url('../img/graphics/user.svg') no-repeat center ;
     background-size: contain;
 
