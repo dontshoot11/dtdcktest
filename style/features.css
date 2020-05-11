@@ -45,8 +45,7 @@
     position: absolute;
     content:url('');
     left: -38px;
-    border: none;
-  
+    border: 1px solid transparent;
     width:18px;
     height: 14px;
     background:url('../img/graphics/check.png') no-repeat center ;
