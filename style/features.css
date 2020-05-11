@@ -45,9 +45,10 @@
     position: absolute;
     content:url('');
     left: -38px;
-    border: 1px solid transparent;
-    width:18px;
-    height: 14px;
+    border: none;
+    padding: 7px 9px;
+   // width:18px;
+   // height: 14px; мобильный safari зачем-то рисует обводку у элемента в таком случае
     background:url('../img/graphics/check.png') no-repeat center ;
     background-size: contain;
 
