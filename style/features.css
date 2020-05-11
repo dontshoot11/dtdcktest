@@ -43,14 +43,15 @@
 
 .features__item:before {
     position: absolute;
-    content:url('');
+    content:"";
     left: -38px;
     width:18px;
     height: 14px;
     background:url('../img/graphics/check.png') no-repeat center ;
     background-size: contain;
     border: none;
-    outline:none
+    outline:none;
+    overflow: hidden;
 
     }
 
