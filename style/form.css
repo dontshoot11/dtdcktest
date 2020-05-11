@@ -104,6 +104,7 @@
     background:  rgba(122, 143, 153, 0.1);
     color: #7A8F99;
     padding: 6px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
 
     height:100%;
@@ -192,6 +193,7 @@
     height: 14px;
     background:url('../img/graphics/check.png') no-repeat center ;
     background-size: contain;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
 }
 

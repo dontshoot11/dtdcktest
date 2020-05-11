@@ -45,12 +45,11 @@
     position: absolute;
     content:url('');
     left: -38px;
-    border: none;
-    padding: 7px 9px;
-   // width:18px;
-   // height: 14px; мобильный safari зачем-то рисует обводку у элемента в таком случае
+    width:18px;
+    height: 14px;
     background:url('../img/graphics/check.png') no-repeat center ;
     background-size: contain;
+    border: none;
 
     }
 
